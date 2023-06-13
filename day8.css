@@ -1,0 +1,31 @@
+div{
+    background-color: red;
+    size: 50px;
+    margin: auto;
+
+}
+.parent {
+    border: 1px solid black;
+    height: 50px;
+    margin-top: 0px;
+}
+.child {
+    width: 80%;
+    border: 2px solid purple;
+    height: 49px;
+    margin: auto;
+    line-height: 49px;
+    text-align: right;        
+}
+.login {
+    background-color: red;
+    color: white;
+    border: none;
+}
+.account {
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    margin-right: 5px;
+}

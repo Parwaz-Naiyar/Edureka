@@ -1,0 +1,57 @@
+.parent{
+    height: 450px;
+    width: 450px;
+    border:2px solid black;
+    position: absolute;
+}
+.square{
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+    position: absolute;
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    position: absolute;
+}
+#sq1{
+    top: 0;
+    left: 0;
+}
+#sq2{
+    top: 0;
+    right: 0;
+}
+#sq3{
+    bottom: 0;
+    left: 0;
+}
+#sq4{
+    bottom: 0;
+    right: 0;
+}
+#c1{
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#c2{
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+#c3{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+#c4{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}

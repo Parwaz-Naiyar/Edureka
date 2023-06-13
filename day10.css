@@ -1,0 +1,128 @@
+.parent {
+    background-image: url(restaurents.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+}
+
+#a {
+    width: 95%;
+    height: 90px;
+    text-align: right;
+    top: 0;
+    right: 0;
+    margin: auto;
+    line-height: 90px;
+    padding-right: 5px;
+}
+
+#log {
+    margin-right: 5px;
+    border: 1px;
+    background-color: transparent;
+
+}
+
+#create {
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+#b {
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    font-size: xx-large;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 100px;
+    color: orangered;
+}
+
+#c {
+    height: 30px;
+    width: 100%;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+
+}
+
+#d {
+    text-align: center;
+}
+
+.state,
+.search {
+    padding: 5px;
+}
+
+.parent2{
+    margin: 50px 80px 80px 80px;
+
+}
+.box{
+    margin-top: 30px;
+}
+.box_container{
+    display: inline-block;
+    width: 33%;
+}
+.box_content{
+    height: 160px;
+    box-shadow: 0 3px 6px 0 black;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.box_image{
+    width: 160px;
+    height: 160px;
+    margin: 0 29px 0 0;
+
+}
+.Item_heading{
+    position: absolute;
+    top: 0px;
+    left: 190px;
+    letter-spacing: normal;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+}
+.description{
+    position: absolute;
+    top: 50px;
+    left: 190px;
+    font-size: 14px;
+    letter-spacing: normal;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+@media (max-width:1000px)
+{
+    .box_container{
+        width: 49.5%;
+    }
+
+    .Item_heading{
+        left: 180px;
+
+    }
+    .description{
+        width: 140px;
+        left: 180px;
+        top: 50px;
+    }
+}
+

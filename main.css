@@ -1,0 +1,9 @@
+body{
+    background-image:url("bulb.jfif"), url("night\ image.webp");
+    color:white;
+    background-repeat: no-repeat;
+    background-size: 250px, cover;
+    background-position: left, 0% 0%;
+    background-color: none;
+    background-attachment: fixed;
+}
